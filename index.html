@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main_div">
+        <div class="music_container" >
+            <h2 id="title">name</h2>
+            <h3 id="artist">artist</h3>
+
+            <div class="image_container">
+             <img src="image/bolenath1.jpg" alt="" srcset="">
+            
+            </div>
+         <audio src="audio/bolenath.mp3" ></audio>
+
+         <!---progresss barr--->
+
+         <div class="progressbar_container" id="progressbar_container">
+            <div class="progress_duration">
+                <div id="current_time">0:00</div>
+                <div id="duration_time">2.41</div>
+            </div>
+            <div class="progress_div" id="progress_div">
+                <div class="progress" id="progress"></div>
+            </div>
+         </div>
+
+    
+
+         <!---controls--->
+
+         <div class="music_controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main_button"  id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+         </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="index.js"></script>
+</html>
